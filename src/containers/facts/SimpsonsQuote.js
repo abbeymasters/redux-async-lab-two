@@ -4,6 +4,7 @@ import Quote from '../../components/quote/Quote';
 import { setQuotePromise } from '../../actions/simpsons';
 import { getQuotes, getQuotesLoading } from '../../selectors/simpsons';
 import Load from '../../components/quote/Load';
+import styles from './SimpsonsQuote.css';
 
 export default function SimpsonsQuote() {
   const loading = useSelector(state => getQuotesLoading(state));
@@ -19,8 +20,8 @@ export default function SimpsonsQuote() {
 
 
   return (
-    <div>
-      <h1>Yo Random Simpsons Quote:</h1>
+    <div className={styles.SimpsonsQuote}>
+      <h1 className={styles.SpecialH}>Yo Random Simpsons Quote:</h1>
       <Quote character={list.character} image={list.image} quote={list.quote} />
       <Load fetch={loadQuotes} />
     </div>

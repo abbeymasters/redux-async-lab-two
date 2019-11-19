@@ -3,5 +3,5 @@
 
 ## Submission Links
 * [GitHub] (https://github.com/abbeymasters/redux-async-lab-two/pull/1)
-* [Travis] ()
+* [Travis] (https://travis-ci.com/abbeymasters/redux-async-lab-two)
 * [Netlify] ()

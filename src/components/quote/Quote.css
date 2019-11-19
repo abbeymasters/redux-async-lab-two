@@ -1,0 +1,22 @@
+.Quote {
+  width: 250px;
+  word-wrap: break-word;
+
+  h1 {
+    font-family: Gochi Hand;
+    font-size: 36px;
+    color: #f14f29;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  img {
+    height: 400px;
+  }
+}
