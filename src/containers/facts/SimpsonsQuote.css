@@ -1,0 +1,13 @@
+.SimpsonsQuote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.SpecialH {
+  font-family: Gochi Hand;
+    color: #009ddc;
+    font-size: 44px;
+}
